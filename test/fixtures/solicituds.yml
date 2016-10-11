@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  usuario_m: one
+  sala: one
+  implemento: one
+  calificacion: 1.5
+  estado: MyString
+
+two:
+  usuario_m: two
+  sala: two
+  implemento: two
+  calificacion: 1.5
+  estado: MyString

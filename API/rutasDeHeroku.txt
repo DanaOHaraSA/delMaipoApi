@@ -1,0 +1,15 @@
+Acceso a datos del musico
+
+https://dry-garden-47296.herokuapp.com/usuario_ms/
+
+Acceso a datos del arrendador
+
+https://dry-garden-47296.herokuapp.com/usuario_as/
+
+Acceder a datos del local
+
+https://dry-garden-47296.herokuapp.com/locals/
+
+Acceder a datos de sala
+
+https://dry-garden-47296.herokuapp.com/salas/

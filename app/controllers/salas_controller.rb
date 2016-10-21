@@ -3,8 +3,8 @@ class SalasController < ApplicationController
 
   # GET /salas
   def index
-    @salas = Sala.all
-
+    @temp = Sala.all()
+    @salas = @temp.order(:valor)
     render json: @salas
   end
 

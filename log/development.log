@@ -865,3 +865,542 @@ Unpermitted parameters: latitud, longitud
 Completed 201 Created in 213ms (Views: 2.1ms | ActiveRecord: 157.9ms)
 
 
+Started POST "/locals/" for 127.0.0.1 at 2016-10-28 16:35:34 -0300
+Processing by LocalsController#create as */*
+  Parameters: {"usuario_a_id"=>1, "nombre"=>"DelMaipo", "foto"=>"/dana/imagenes/7.png", "calificacion"=>5, "descripcion"=>"descripcion de prueba 1", "horario"=>nil, "direccion"=>"Neltume 1775", "localizacion"=>nil, "latitud"=>-33.447895, "longitud"=>-70.6857465, "local"=>{"usuario_a_id"=>1, "nombre"=>"DelMaipo", "foto"=>"/dana/imagenes/7.png", "calificacion"=>5, "descripcion"=>"descripcion de prueba 1", "horario"=>nil, "direccion"=>"Neltume 1775", "localizacion"=>nil, "latitud"=>-33.447895, "longitud"=>-70.6857465}}
+Unpermitted parameters: latitud, longitud
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUsuarioA Load (0.3ms)[0m  [1m[34mSELECT  `usuario_as`.* FROM `usuario_as` WHERE `usuario_as`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (10.2ms)[0m  [1m[32mINSERT INTO `locals` (`usuario_a_id`, `nombre`, `foto`, `calificacion`, `descripcion`, `direccion`, `created_at`, `updated_at`) VALUES (1, 'DelMaipo', '/dana/imagenes/7.png', 5.0, 'descripcion de prueba 1', 'Neltume 1775', '2016-10-28 19:35:34', '2016-10-28 19:35:34')[0m
+  [1m[35m (49.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 70ms (Views: 1.2ms | ActiveRecord: 60.4ms)
+
+
+Started POST "/locals/" for 127.0.0.1 at 2016-10-28 16:35:37 -0300
+Processing by LocalsController#create as */*
+  Parameters: {"usuario_a_id"=>1, "nombre"=>"DelMaipo", "foto"=>"/dana/imagenes/7.png", "calificacion"=>5, "descripcion"=>"descripcion de prueba 1", "horario"=>nil, "direccion"=>"Neltume 1775", "localizacion"=>nil, "latitud"=>-33.447895, "longitud"=>-70.6857465, "local"=>{"usuario_a_id"=>1, "nombre"=>"DelMaipo", "foto"=>"/dana/imagenes/7.png", "calificacion"=>5, "descripcion"=>"descripcion de prueba 1", "horario"=>nil, "direccion"=>"Neltume 1775", "localizacion"=>nil, "latitud"=>-33.447895, "longitud"=>-70.6857465}}
+Unpermitted parameters: latitud, longitud
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUsuarioA Load (0.3ms)[0m  [1m[34mSELECT  `usuario_as`.* FROM `usuario_as` WHERE `usuario_as`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `locals` (`usuario_a_id`, `nombre`, `foto`, `calificacion`, `descripcion`, `direccion`, `created_at`, `updated_at`) VALUES (1, 'DelMaipo', '/dana/imagenes/7.png', 5.0, 'descripcion de prueba 1', 'Neltume 1775', '2016-10-28 19:35:37', '2016-10-28 19:35:37')[0m
+  [1m[35m (78.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 88ms (Views: 1.7ms | ActiveRecord: 80.0ms)
+
+
+Started POST "/locals/" for 127.0.0.1 at 2016-10-28 16:35:38 -0300
+Processing by LocalsController#create as */*
+  Parameters: {"usuario_a_id"=>1, "nombre"=>"DelMaipo", "foto"=>"/dana/imagenes/7.png", "calificacion"=>5, "descripcion"=>"descripcion de prueba 1", "horario"=>nil, "direccion"=>"Neltume 1775", "localizacion"=>nil, "latitud"=>-33.447895, "longitud"=>-70.6857465, "local"=>{"usuario_a_id"=>1, "nombre"=>"DelMaipo", "foto"=>"/dana/imagenes/7.png", "calificacion"=>5, "descripcion"=>"descripcion de prueba 1", "horario"=>nil, "direccion"=>"Neltume 1775", "localizacion"=>nil, "latitud"=>-33.447895, "longitud"=>-70.6857465}}
+Unpermitted parameters: latitud, longitud
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUsuarioA Load (0.2ms)[0m  [1m[34mSELECT  `usuario_as`.* FROM `usuario_as` WHERE `usuario_as`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `locals` (`usuario_a_id`, `nombre`, `foto`, `calificacion`, `descripcion`, `direccion`, `created_at`, `updated_at`) VALUES (1, 'DelMaipo', '/dana/imagenes/7.png', 5.0, 'descripcion de prueba 1', 'Neltume 1775', '2016-10-28 19:35:38', '2016-10-28 19:35:38')[0m
+  [1m[35m (48.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 58ms (Views: 1.4ms | ActiveRecord: 49.2ms)
+
+
+Started POST "/locals/" for 127.0.0.1 at 2016-10-28 16:35:39 -0300
+Processing by LocalsController#create as */*
+  Parameters: {"usuario_a_id"=>1, "nombre"=>"DelMaipo", "foto"=>"/dana/imagenes/7.png", "calificacion"=>5, "descripcion"=>"descripcion de prueba 1", "horario"=>nil, "direccion"=>"Neltume 1775", "localizacion"=>nil, "latitud"=>-33.447895, "longitud"=>-70.6857465, "local"=>{"usuario_a_id"=>1, "nombre"=>"DelMaipo", "foto"=>"/dana/imagenes/7.png", "calificacion"=>5, "descripcion"=>"descripcion de prueba 1", "horario"=>nil, "direccion"=>"Neltume 1775", "localizacion"=>nil, "latitud"=>-33.447895, "longitud"=>-70.6857465}}
+Unpermitted parameters: latitud, longitud
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUsuarioA Load (0.2ms)[0m  [1m[34mSELECT  `usuario_as`.* FROM `usuario_as` WHERE `usuario_as`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `locals` (`usuario_a_id`, `nombre`, `foto`, `calificacion`, `descripcion`, `direccion`, `created_at`, `updated_at`) VALUES (1, 'DelMaipo', '/dana/imagenes/7.png', 5.0, 'descripcion de prueba 1', 'Neltume 1775', '2016-10-28 19:35:39', '2016-10-28 19:35:39')[0m
+  [1m[35m (52.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 63ms (Views: 1.2ms | ActiveRecord: 53.4ms)
+
+
+Started GET "/locals/" for 127.0.0.1 at 2016-10-28 16:35:46 -0300
+Processing by LocalsController#index as */*
+  Parameters: {"local"=>{}}
+  [1m[36mLocal Load (0.5ms)[0m  [1m[34mSELECT `locals`.* FROM `locals`[0m
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/locals/" for 127.0.0.1 at 2016-10-28 16:36:16 -0300
+Processing by LocalsController#create as */*
+  Parameters: {"usuario_a_id"=>1, "nombre"=>"DelMaipo", "foto"=>"/dana/imagenes/7.png", "calificacion"=>5, "descripcion"=>"descripcion de prueba 1", "horario"=>nil, "direccion"=>"Neltume 1775", "localizacion"=>nil, "latitud"=>-33.447895, "longitud"=>-70.6857465, "local"=>{"usuario_a_id"=>1, "nombre"=>"DelMaipo", "foto"=>"/dana/imagenes/7.png", "calificacion"=>5, "descripcion"=>"descripcion de prueba 1", "horario"=>nil, "direccion"=>"Neltume 1775", "localizacion"=>nil, "latitud"=>-33.447895, "longitud"=>-70.6857465}}
+Unpermitted parameters: latitud, longitud
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUsuarioA Load (0.3ms)[0m  [1m[34mSELECT  `usuario_as`.* FROM `usuario_as` WHERE `usuario_as`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO `locals` (`usuario_a_id`, `nombre`, `foto`, `calificacion`, `descripcion`, `direccion`, `created_at`, `updated_at`) VALUES (1, 'DelMaipo', '/dana/imagenes/7.png', 5.0, 'descripcion de prueba 1', 'Neltume 1775', '2016-10-28 19:36:16', '2016-10-28 19:36:16')[0m
+  [1m[35m (46.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 57ms (Views: 1.3ms | ActiveRecord: 47.6ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('67576088389495665', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to RemoveDireccionFromLocals (20161028194408)
+  [1m[35m (285.7ms)[0m  [1m[35mALTER TABLE `locals` DROP `direccion`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20161028194408')[0m
+  [1m[35m (36.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('67576088389495665')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `implementos`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'implementos'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `locals`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'locals'[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW CREATE TABLE `salas`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'salas'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `solicituds`[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'solicituds'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_as`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_as'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_ms`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_ms'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'implementos'
+[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'locals'
+[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'salas'
+[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'solicituds'
+[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_as'
+[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_ms'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('67576088389495665', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('67576088389495665')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `implementos`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'implementos'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `locals`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'locals'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `salas`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'salas'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `solicituds`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'solicituds'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_as`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_as'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_ms`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_ms'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'implementos'
+[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'locals'
+[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'salas'
+[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'solicituds'
+[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_as'
+[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_ms'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT GET_LOCK('67576088389495665', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to RemoveCreatedAtFromLocals (20161028194606)
+  [1m[35m (278.3ms)[0m  [1m[35mALTER TABLE `locals` DROP `created_at`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20161028194606')[0m
+  [1m[35m (37.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('67576088389495665')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `implementos`[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'implementos'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `locals`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'locals'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `salas`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'salas'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW CREATE TABLE `solicituds`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'solicituds'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_as`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_as'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_ms`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_ms'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'implementos'
+[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'locals'
+[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'salas'
+[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'solicituds'
+[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_as'
+[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_ms'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('67576088389495665', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to RemoveUpdatedAtFromLocals (20161028194700)
+  [1m[35m (247.0ms)[0m  [1m[35mALTER TABLE `locals` DROP `updated_at`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20161028194700')[0m
+  [1m[35m (36.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('67576088389495665')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW CREATE TABLE `implementos`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'implementos'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `locals`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'locals'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `salas`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'salas'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `solicituds`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'solicituds'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_as`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_as'[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_ms`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_ms'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'implementos'
+[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'locals'
+[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'salas'
+[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'solicituds'
+[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_as'
+[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_ms'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('67576088389495665', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to RemoveLocalizacionFromLocals (20161028194858)
+  [1m[35m (332.6ms)[0m  [1m[35mALTER TABLE `locals` DROP `localizacion`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20161028194858')[0m
+  [1m[35m (38.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('67576088389495665')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `implementos`[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'implementos'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `locals`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'locals'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `salas`[0m
+  [1m[35m (2.1ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'salas'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `solicituds`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'solicituds'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_as`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_as'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_ms`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_ms'[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'implementos'
+[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'locals'
+[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'salas'
+[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'solicituds'
+[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_as'
+[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_ms'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT GET_LOCK('67576088389495665', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddDireccionFromLocals (20161028195056)
+  [1m[35m (227.8ms)[0m  [1m[35mALTER TABLE `locals` ADD `direccion` text[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20161028195056')[0m
+  [1m[35m (37.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('67576088389495665')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `implementos`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'implementos'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW CREATE TABLE `locals`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'locals'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `salas`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'salas'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `solicituds`[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'solicituds'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_as`[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_as'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_ms`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_ms'[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'implementos'
+[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'locals'
+[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'salas'
+[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'solicituds'
+[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_as'
+[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_ms'
+[0m
+Started GET "/locals/" for 127.0.0.1 at 2016-10-28 16:51:35 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by LocalsController#index as */*
+  Parameters: {"local"=>{}}
+  [1m[36mLocal Load (0.7ms)[0m  [1m[34mSELECT `locals`.* FROM `locals`[0m
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 2.8ms)
+
+

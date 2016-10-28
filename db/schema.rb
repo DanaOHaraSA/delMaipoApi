@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161011202945) do
+ActiveRecord::Schema.define(version: 20161028174525) do
 
   create_table "implementos", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.integer  "local_id"
@@ -42,7 +42,6 @@ ActiveRecord::Schema.define(version: 20161011202945) do
     t.text     "foto",        limit: 65535
     t.integer  "valor"
     t.text     "descripcion", limit: 65535
-    t.text     "calendario",  limit: 65535
     t.datetime "created_at",                null: false
     t.datetime "updated_at",                null: false
     t.index ["local_id"], name: "index_salas_on_local_id", using: :btree

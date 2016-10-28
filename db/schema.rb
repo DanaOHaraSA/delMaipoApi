@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161028181001) do
+ActiveRecord::Schema.define(version: 20161028190816) do
 
   create_table "implementos", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.integer  "local_id"
@@ -33,6 +33,8 @@ ActiveRecord::Schema.define(version: 20161028181001) do
     t.string   "localizacion"
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
+    t.float    "latitud",      limit: 24
+    t.float    "longitud",     limit: 24
     t.index ["usuario_a_id"], name: "index_locals_on_usuario_a_id", using: :btree
   end
 

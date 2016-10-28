@@ -1404,3 +1404,83 @@ Processing by LocalsController#index as */*
 Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 2.8ms)
 
 
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('67576088389495665', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to ChangeLatitudFromLocals (20161028201141)
+  [1m[35m (272.3ms)[0m  [1m[35mALTER TABLE `locals` CHANGE `latitud` `latitud` decimal[0m
+  [1m[35m (274.1ms)[0m  [1m[35mALTER TABLE `locals` CHANGE `longitud` `longitud` decimal[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20161028201141')[0m
+  [1m[35m (36.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('67576088389495665')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `implementos`[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'implementos'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `locals`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'locals'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `salas`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'salas'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW CREATE TABLE `solicituds`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'solicituds'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_as`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_as'[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `usuario_ms`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'usuario_ms'[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'implementos'
+[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'locals'
+[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'salas'
+[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'solicituds'
+[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_as'
+[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'delMaipo'
+  AND fk.table_name = 'usuario_ms'
+[0m
